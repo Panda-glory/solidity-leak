@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storedTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeZone1Library",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeZone2Library",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/PreservationAttack.sol": "PreservationAttack"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Preservation.sol": {
+			"keccak256": "0x3295c918de33ae43baeeff2c9428a29800e37744f5e3e8cac6fdc70ff28d521d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8eee904ac41cd002fbde3b8733a0bedd657da1004c314743b80cc56e5696e061",
+				"dweb:/ipfs/QmaGMTJgfesEydYNgdyXxJuTY3oswjuGqN7R3Em8H7w58Q"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/PreservationAttack.sol": {
+			"keccak256": "0x0a344c5f757c5a6a0abfa94080327c10c7d083b254faa2eadac6b2f7419c3f85",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09aec78933520a86f87a264d3ba063bd122f482bfc16dfd8a0ee596efa6d9a38",
+				"dweb:/ipfs/QmQpRbrnXUKYLqkMmLBH44kNsSCjzVpN5kzqDzWsJZViSC"
+			]
+		}
+	},
+	"version": 1
+}

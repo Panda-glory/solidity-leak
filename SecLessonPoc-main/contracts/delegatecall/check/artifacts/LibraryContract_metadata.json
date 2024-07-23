@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_time",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SecLessonPoc-main/contracts/delegatecall/check/Libray.sol": "LibraryContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SecLessonPoc-main/contracts/delegatecall/check/Libray.sol": {
+			"keccak256": "0x8faf243208493dfce14d0f1fd33f44f047fe86707fa9c8355ca6d8a4cc9e5bac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7610ae9a1e7cf1f466c8427757264aecd0263b192cbc6153792c6ec2c07fdab6",
+				"dweb:/ipfs/QmUAaWHxdZ2Fegj1xyYke3yFzATs6rhnvAeR99MY7FxN77"
+			]
+		}
+	},
+	"version": 1
+}

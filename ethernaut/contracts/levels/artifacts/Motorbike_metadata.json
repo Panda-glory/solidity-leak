@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_logic",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/levels/Motorbike.sol": "Motorbike"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/helpers/Initializable-06.sol": {
+			"keccak256": "0xecf7702d5c07af638c4dd980cf77be32e66161dbb74ab1bdc4e848cb5a70bdc9",
+			"urls": [
+				"bzz-raw://9796e7e446c996bd477885e8452045ac0d933be421006d964fa1402ac281ef4e",
+				"dweb:/ipfs/QmdteU4tQucWQGgGQLwei913cBJdS41adkUeURGhJ7ozmc"
+			]
+		},
+		"shoot/ethernaut/contracts/helpers/address-06.sol": {
+			"keccak256": "0xc171a1f30f68704c47c043fa2f6a8a48317be1cde8b679df6f1c286f25702731",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6fb2805003ffe008337a742057a430ff1a5eabc3a3e9c4bd73a4f2db04b1d16",
+				"dweb:/ipfs/QmfH3tuBRJs6MRpcLDx8NGKv3UGMjgxSefAiWsM8TaB43e"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/Motorbike.sol": {
+			"keccak256": "0xe3ff09b996ba2918a29199c14872f26020ff3f13e1ac07731e762a71d84c60b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://035adc93a57ca3ac89bf2c187c3f2c7a2bfa75293aa7794ee506d72b4f37ed67",
+				"dweb:/ipfs/Qmck3fSRLAWKtCn2T3j4ZrRcY9bWsjBkFTFN61XZ2p5LZ6"
+			]
+		}
+	},
+	"version": 1
+}

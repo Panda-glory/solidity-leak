@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/智能合约验签/1.sol": "Attract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/智能合约验签/1.sol": {
+			"keccak256": "0xc54cd80ac5f0d10568b9cf8a66a4dd7659725e8f5a5b5e5f4962added806e62b",
+			"urls": [
+				"bzz-raw://5982f6ca87139b4572166501289506f35ffcca204af8fca796d03ceb0d6c3acf",
+				"dweb:/ipfs/QmRDVtCbdmBqo2BfyMCvXQC8tEdpwFRwUBneyKsuBTwyKx"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/TokenAttack.sol": "TokenAttract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Token.sol": {
+			"keccak256": "0x1132067cbf3a48c1b8537e2a732156887f65301965f5bee424fd7afd0584c50a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a51b5b62aa86b593e3f08533d32c9e6586f3569daf90c4c6416a49b99583d435",
+				"dweb:/ipfs/QmTorS2H49DnoDVXSLVJEyPR9KuWkYB6ExiTDz8AXDDmZm"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/TokenAttack.sol": {
+			"keccak256": "0x20c4f8c6bcd9678df7fa1a03b8d58ff10042adcc8bbb140a4060daee13bbb6f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8692ce20b40c2756d17386b929498882eeb19f7f2ebb02f685f95b59b165db1a",
+				"dweb:/ipfs/QmRATMngJbyQVtBsRia1rTLWA2xcX2jJB7fzfNnxBef9ja"
+			]
+		}
+	},
+	"version": 1
+}

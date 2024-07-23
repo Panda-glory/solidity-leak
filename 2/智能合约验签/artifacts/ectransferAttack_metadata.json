@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_ect",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "fighash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/智能合约验签/2.sol": "ectransferAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/智能合约验签/2.sol": {
+			"keccak256": "0x60f70bb64d20d336fe31e7fed70082b1d26f1cbdf5d67510523ea358c1d98898",
+			"urls": [
+				"bzz-raw://7ee1ac7d687b132d197b275043b73058f7cca3aae5c21703a8e6dba5ba347640",
+				"dweb:/ipfs/QmYbtmt89UXwQsGXreYpcczByGnC234yXWRoWwps2WbLuE"
+			]
+		}
+	},
+	"version": 1
+}

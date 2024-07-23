@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_floor",
+						"type": "uint256"
+					}
+				],
+				"name": "goTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isCompleted",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/外部合约引用/1attract.sol": "Top"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/外部合约引用/1attract.sol": {
+			"keccak256": "0xeaacc25a9c8bce210d964d89c4e16854c8aa22f4d3b334dac9a59db5d42ddf9f",
+			"urls": [
+				"bzz-raw://b21c88a11ed1a92a80963f2e8a6369bceb9d1b9a88507cae5d34fc5a54d818a2",
+				"dweb:/ipfs/QmY4zfrXUrqxZFoqkd2qaRoFyxYSRN9FPLXxkvKEhR8GXZ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "account",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/CoinFlipAttack.sol": "CoinFlipattract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/CoinFlip.sol": {
+			"keccak256": "0x1a82c3f56915367e67a29a1c2f2cc294ec19bf32338bb8f197a24d6158966965",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8774d1b98d44e5ec7c0f65ced2051194c1fe3084ea83b8787719cd95acd227e4",
+				"dweb:/ipfs/QmeSywuuCm8cKBrpNznaRTA1ps5hQpW84SCUmRMtUsa1qw"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/CoinFlipAttack.sol": {
+			"keccak256": "0x94e862bd905ea03a1ff9e565fee3dcdf7b380b1130759dc6aa15c5ea564d275b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://970da6e9281574f0b9008eb412fd24eb759c0e423b83e9a335d2f4a32217540a",
+				"dweb:/ipfs/QmNThZbWMAiKqq4bm5YhiHrr6Mks5tVvcf2j3FYMGQLyyw"
+			]
+		}
+	},
+	"version": 1
+}

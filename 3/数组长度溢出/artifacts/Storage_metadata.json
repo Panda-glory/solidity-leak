@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "slot",
+						"type": "uint256"
+					},
+					{
+						"name": "data",
+						"type": "uint256"
+					}
+				],
+				"name": "setStorageAt",
+				"outputs": [
+					{
+						"name": "ret",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "slot",
+						"type": "uint256"
+					}
+				],
+				"name": "getStorageAt",
+				"outputs": [
+					{
+						"name": "ret",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/3/数组长度溢出/1.sol": "Storage"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/3/数组长度溢出/1.sol": {
+			"keccak256": "0x8f72ae0c4576ba5fb78dfa8390e921ed4e9d67619170df8769bddc9b51e56452",
+			"urls": [
+				"bzzr://2dce4ae094bf50ea3f0ebbb879bf96a95265c8633659063114ec57e91fc0402e"
+			]
+		}
+	},
+	"version": 1
+}

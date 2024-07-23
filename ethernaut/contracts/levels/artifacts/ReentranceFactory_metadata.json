@@ -1,0 +1,208 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_player",
+						"type": "address"
+					}
+				],
+				"name": "createInstance",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "insertCoin",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_instance",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_player",
+						"type": "address"
+					}
+				],
+				"name": "validateInstance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"owner()": {
+					"details": "Returns the address of the current owner."
+				},
+				"renounceOwnership()": {
+					"details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner."
+				},
+				"transferOwnership(address)": {
+					"details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/levels/ReentranceFactory.sol": "ReentranceFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Reentrance.sol": {
+			"keccak256": "0xb3190987f66b9a65441da7cceb8ef286e41bf0a6ba8104b0d61bc19f6122ee0c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7a6df971c52ae21d2fd3897d2d62087d749ec1797c2f713c2b261826d308679",
+				"dweb:/ipfs/QmVhbUsazohYEPxeFkkDCRsytwkEhKp6u3WZhH4ojrbRgJ"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/ReentranceFactory.sol": {
+			"keccak256": "0x3da127e89ed1095269bfe11fcf8a2627a12f8a896492ae4dc729b8760382cc82",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74734e514ace00abec28e7a4665f78dceeb2302b34d222568615cc02749d7964",
+				"dweb:/ipfs/QmaFChtLtDKgQ1MM7Aovs2RoYB6BnZhrKauhUau9fMp8VX"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/base/Context-06.sol": {
+			"keccak256": "0x8ac237c12cc7ab06bbd433838ea1d5c3c47e376fa81a68900eb9749c1ea8c6b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c8c274942a569fe22e47bb68c9ae92f3431938f6b1cfc65432669b780f5d892",
+				"dweb:/ipfs/QmabyU2SyatPcbSzvZCUfpWGSgDT7CWHEzeoUu74ZBTKc1"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/base/Level-06.sol": {
+			"keccak256": "0x050fa542096be1fc0e1fcd0fa1d6b02bbee46133cb698dc0be60df9956c587d1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8055d8b6a652a64b53c1491ed7167efb46d06da91d04f4b910ef1f8eaa86156d",
+				"dweb:/ipfs/QmQeE6UzpuZeFzXqu2gnWxHgFKEG3FP3qq2o1Pysqxgci8"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/base/Ownable-06.sol": {
+			"keccak256": "0x4fc12b2f7f94df92f932d8bc95c9eb0627607b70585a8e5f12fdefdb3a870f3f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f97e8fdf85ce1ae167dd35597d58cae83f261f901c3465d786e46e1247a5834",
+				"dweb:/ipfs/QmVSonqgm8ZJg4DNmGwAwLxMm62DZ9NtheKQjKSYaMQtus"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/base/SafeMath-06.sol": {
+			"keccak256": "0x98736a085f562e1232a6975c12f784ba08bddc6682aaf57f795155989d44539d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c720ad8c836152a5b673eadd824caf4c214865042006bb8972ec789dcb89dc3",
+				"dweb:/ipfs/QmRdfSNjkgoGqQx7QkyrJ779vVkjqrMY18b9Y9Eh1RD7h4"
+			]
+		}
+	},
+	"version": 1
+}

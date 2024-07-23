@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/RecoveryAttack.sol": "RecoveryAttack"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Recovery.sol": {
+			"keccak256": "0x97cd12d6c471f759355d6b657b296dabb747894b40c258dda179ab77a8a72d00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bfae37125ab893de8b7df11ad490bfc7116341b5d6ec8ba075c47d73ac684c88",
+				"dweb:/ipfs/QmUDk3KVmmcEXJde1xfQ329XuiXzJm6GHWxE9Hw1ioCnCU"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/RecoveryAttack.sol": {
+			"keccak256": "0xd3aecf3c6b77c8716091352e259b0fe11210dde8e1ae350a6dc66b0405cf0789",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0f2b43d476e4abd1f862b88f6aeab0aee9eb116c6f358371155a6d9b12428bc5",
+				"dweb:/ipfs/QmWCaqsKfHPPqEcme5G5Eb6SmAr6Yu5ndygV3h2KWqkP1P"
+			]
+		}
+	},
+	"version": 1
+}

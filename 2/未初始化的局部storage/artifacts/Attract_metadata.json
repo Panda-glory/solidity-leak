@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/未初始化的局部storage/1attract.sol": "Attract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/未初始化的局部storage/1.sol": {
+			"keccak256": "0xcd9f5809fb8e81b7b3a339a8aade1f87af4753233edcfb9549b5f73fae832792",
+			"urls": [
+				"bzzr://6cdd830ab4d3fa9d02f03d135374fc1367a0c96beb235c632b4a729ae2e09e34"
+			]
+		},
+		"shoot/2/未初始化的局部storage/1attract.sol": {
+			"keccak256": "0xb08267034bae74db5daa74b514201ee205799dba4130ca76cc6320685fda6a61",
+			"urls": [
+				"bzzr://1f7c0fadab1d42002583f005d7de4395b981a9fad4b1658ce09cf3a8119d3d62"
+			]
+		}
+	},
+	"version": 1
+}

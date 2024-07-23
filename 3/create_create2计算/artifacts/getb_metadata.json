@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "g",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/3/create_create2计算/1.sol": "getb"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/3/create_create2计算/1.sol": {
+			"keccak256": "0xebd8f97cde0975f78b83c41a02bb6144ba6f9848a7781ca227a5c6f7e23d5725",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://bd196b007e20d3d92343ac370e4016e6aa9f2da321c358ddad37bd3dc3261972",
+				"dweb:/ipfs/QmXHjYhYvdH78wXsq8h4RkCZLoN156y9HxdM2t8UxejqsX"
+			]
+		}
+	},
+	"version": 1
+}

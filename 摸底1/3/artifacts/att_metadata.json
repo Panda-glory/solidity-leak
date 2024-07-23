@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract market",
+						"name": "mar",
+						"type": "address"
+					}
+				],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/摸底1/3/1.sol": "att"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/摸底1/3/1.sol": {
+			"keccak256": "0x3540bde662ad78a3454edcbbe8c14955e2b1dfcfbf41e2a27a92611b1165e564",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://fbfdaa8975e7e16c3e14bf31798884cebae42db06012b02933d434f3334d39db",
+				"dweb:/ipfs/QmYQVtPhC37pyFdvgj4f9VAFpDNoPqM1zzPnEyKhPdvFsQ"
+			]
+		}
+	},
+	"version": 1
+}

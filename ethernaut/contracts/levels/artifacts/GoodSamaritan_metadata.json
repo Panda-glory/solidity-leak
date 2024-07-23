@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "coin",
+				"outputs": [
+					{
+						"internalType": "contract Coin",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "requestDonation",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "enoughBalance",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wallet",
+				"outputs": [
+					{
+						"internalType": "contract Wallet",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/levels/GoodSamaritan.sol": "GoodSamaritan"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OpenZeppelin-code/openzeppelin-contracts/contracts/utils/Address.sol": {
+			"keccak256": "0xa41d7d2dbbeff548760b06a89ab596ff495f4ae91dcd17d4d13e8a3b3853c9fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://db62d884d97bc0f540d01cbb204225316cfd9c07f9c39e37ee66406d9abf74c6",
+				"dweb:/ipfs/QmfZ7RAJ76mDgxB6u37kJrpcdaxAhT2ot6bimp8yjHetpf"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/GoodSamaritan.sol": {
+			"keccak256": "0xfeb1b0df411752a4a4e41584702c94fbcf76bf2e407acd0d57fd96f2595af275",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d0e8e874f36e1edaf308755bb49dc6dbc2f5b6006d2a169e32c7981908a094d",
+				"dweb:/ipfs/QmeUAs1vHg2tDPGMvtKQS41HvbN8RfBzKmpLttEMQmBtDx"
+			]
+		}
+	},
+	"version": 1
+}

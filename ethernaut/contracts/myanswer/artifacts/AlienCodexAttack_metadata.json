@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getindex",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/AlienCodexAttack.sol": "AlienCodexAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/helpers/Ownable-05.sol": {
+			"keccak256": "0x5e152d4fe867c54125b89610a2e423d7711248e925115054441fe4a346d9d3b8",
+			"urls": [
+				"bzz-raw://e7b63ef3732147f372ec97ebb70322f9d744a66b86c167104e1556a1369d61cb",
+				"dweb:/ipfs/QmSGLsC8Y3A8PnCjJaq4poQnTUPkZ5CQSt3z1VpU3cjHKx"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/AlienCodex.sol": {
+			"keccak256": "0xe37452d20d2bf2e24db6f336db7d0b8626d2e5a0399e56ed28fd5f45597deba0",
+			"urls": [
+				"bzz-raw://392c0fd577373ed2674b08f9e4cc36f9124a5becfa27e6987a8d567ae8012334",
+				"dweb:/ipfs/QmbLqY1vJjdFZ1QbmrDhEEYgNDCcjLa5xRNVDaKshH3M6V"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/AlienCodexAttack.sol": {
+			"keccak256": "0xcf90fab1282f0a0277cc814af80f27d228597758297f1fcf75ebf0a596d59d72",
+			"urls": [
+				"bzz-raw://b508c475ef1151879f407bb8bc579a39b4fdd8ac0b536c4635d53d8302cb628d",
+				"dweb:/ipfs/QmZTM9uhB6GeAwUz6PHRBU6uwoBo53mjoEVe76NbCtcfNw"
+			]
+		}
+	},
+	"version": 1
+}

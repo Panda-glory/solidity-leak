@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/GatekeeperOneAttack.sol": "GatekeeperOneAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/GatekeeperOne.sol": {
+			"keccak256": "0x5a3cd7b73efc45776fa28cab7e817ca7698101793d336ec26353c557f68c45a1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94056e8def8198074fef864985b18fa02e2b17b85c3bf17aafef4963e78f5bd5",
+				"dweb:/ipfs/Qmbx5shYeDTJe1K1GJUL98KEi2SNufHDXt2kZZPxwvr5A8"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/GatekeeperOneAttack.sol": {
+			"keccak256": "0xf52b9f28037284b232a94366331392a1a405009ab7c5f71d41fc14b15c9dfe61",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49b0c3b77a8218f216244c1172d7101621bfcb84e2b2c481047f3e361adddf7f",
+				"dweb:/ipfs/QmVnct4kittpNsAB7tUrTFrm61hgYRyQAsrHMdY7hceTMB"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,118 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "impl",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "result",
+						"type": "bool"
+					}
+				],
+				"name": "Check",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "destroy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "takeControl",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "validateItIsBroken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/attacks/MotorbikeAttack.sol": "MotorbikeAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/attacks/MotorbikeAttack.sol": {
+			"keccak256": "0x1da7a6d8a0958e07477027b16685e7eaaf7b86431a064c4e4963e1c76fbabb36",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6be94b5a13ac02c9ed48d15cca8ce330d6592879e7b856a633e4b016df948cfe",
+				"dweb:/ipfs/QmVYuXzsUm8PmkXaUZ75zEe11rqwh3RWSLPPschV3PE8Ae"
+			]
+		},
+		"shoot/ethernaut/contracts/helpers/Address-06.sol": {
+			"keccak256": "0xc171a1f30f68704c47c043fa2f6a8a48317be1cde8b679df6f1c286f25702731",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e6fb2805003ffe008337a742057a430ff1a5eabc3a3e9c4bd73a4f2db04b1d16",
+				"dweb:/ipfs/QmfH3tuBRJs6MRpcLDx8NGKv3UGMjgxSefAiWsM8TaB43e"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "des",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SecLessonPoc-main/contracts/wrongTxorigin/attack/PullingAnswer.sol": "attack1"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SecLessonPoc-main/contracts/wrongTxorigin/attack/PullingAnswer.sol": {
+			"keccak256": "0x2bee6262f031c0e6c517c625be3bb06d88cd4037605d0e3d1d00e920cd0af3da",
+			"urls": [
+				"bzz-raw://004bdd67e055c9a92d438c8c39fd535bb1f4674948b3b583a2c751313f39b087",
+				"dweb:/ipfs/QmTa2vyXMEX8m53KrooaysmLzPVFvZ9y7LpPtqAo3GfzNT"
+			]
+		},
+		"SecLessonPoc-main/contracts/wrongTxorigin/check/Pulling.sol": {
+			"keccak256": "0xae91c52d29c504ce0b2202bcbba5693a09ef3739e657be95203b8292ab5786d0",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://145bfe24fc084bc76718f304755334b716e292cdae897d69fd478b5852a950c8",
+				"dweb:/ipfs/QmQGMV8TN3uGuMXLnEsVywFiLKeB8ZFyevVCSQ4tMRvrnk"
+			]
+		}
+	},
+	"version": 1
+}

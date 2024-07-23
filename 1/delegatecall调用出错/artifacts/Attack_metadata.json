@@ -1,0 +1,156 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "check1",
+				"outputs": [
+					{
+						"internalType": "contract check",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "prize",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "score",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "setPrize",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "solt0",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/delegatecall调用出错/attact.sol": "Attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/delegatecall调用出错/1.sol": {
+			"keccak256": "0xf576168ec5d7e55a01d7fb0d9e6dae39ebe298bfd17de9c28a3994164b017c71",
+			"urls": [
+				"bzz-raw://564a96a0c2fc0e45cd266808f6c3f0885ec216a2172c7f12981a46f1f2768d86",
+				"dweb:/ipfs/QmdWyudZxMMUZ1cdLVTYScBHhAUtCVX7qSPF4jCsrzXE9R"
+			]
+		},
+		"shoot/1/delegatecall调用出错/attact.sol": {
+			"keccak256": "0x556311d9441601ce40426a5de5cef91bc7cbc7335867c311340273856e7341c4",
+			"urls": [
+				"bzz-raw://e571de734dec3a383c49b6d8cc469486256d1fb93e59d89d3e40c82ed803eb5f",
+				"dweb:/ipfs/QmZWPmCuHuCJEWBY2kBvzyxgQYZ9nBuR7zMzmRHUAwdnMu"
+			]
+		}
+	},
+	"version": 1
+}

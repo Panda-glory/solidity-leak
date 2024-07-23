@@ -1,0 +1,182 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_admin",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_implementation",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_initData",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "implementation",
+						"type": "address"
+					}
+				],
+				"name": "Upgraded",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_expectedAdmin",
+						"type": "address"
+					}
+				],
+				"name": "approveNewAdmin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pendingAdmin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newAdmin",
+						"type": "address"
+					}
+				],
+				"name": "proposeNewAdmin",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newImplementation",
+						"type": "address"
+					}
+				],
+				"name": "upgradeTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"events": {
+				"Upgraded(address)": {
+					"details": "Emitted when the implementation is upgraded."
+				}
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/levels/PuzzleWallet.sol": "PuzzleProxy"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OpenZeppelin-code/openzeppelin-contracts/contracts/proxy/Proxy.sol": {
+			"keccak256": "0x62c6b919abeeb4c9146ffbb325fc03b5f2d55a29b8e719b8ff62daab48123565",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://296143200e46ef2d62d089f9e7be424ebd49c37ab44c7ac24da3c2c89a0226d5",
+				"dweb:/ipfs/Qmd3g6y6MU3Udk2z7onjyVdifjTANp7CvFYkJNGGQBDBvB"
+			]
+		},
+		"OpenZeppelin-code/openzeppelin-contracts/contracts/utils/Address.sol": {
+			"keccak256": "0xa41d7d2dbbeff548760b06a89ab596ff495f4ae91dcd17d4d13e8a3b3853c9fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://db62d884d97bc0f540d01cbb204225316cfd9c07f9c39e37ee66406d9abf74c6",
+				"dweb:/ipfs/QmfZ7RAJ76mDgxB6u37kJrpcdaxAhT2ot6bimp8yjHetpf"
+			]
+		},
+		"shoot/ethernaut/contracts/helpers/UpgradeableProxy-08.sol": {
+			"keccak256": "0x4829b73b0e57467d372e19528019c1a926937197e5381752ca1613e6b54677cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5016b8573750db99263ac0148fb6869d7dc92b2145cc7dae444a9f1bea3d561a",
+				"dweb:/ipfs/QmP7pWdGwtjBvgpXji5zkYrx9zANBhRR8AUVJ5hSPuVzEF"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/PuzzleWallet.sol": {
+			"keccak256": "0xf3174e9b9805eee8e5268e62dc3e92677b8636245bc1b56e3aeb4ddf7814325f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c0fe580da551c6bf857072b45b2078823386e8d05c176b0128fb53e2fedc081f",
+				"dweb:/ipfs/QmaDFXxAyiyHp68XPi8qUdS6mZb5GcSv8hArQgcQrDKuoj"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/ForceAttack.sol": "ForceAttact"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/myanswer/ForceAttack.sol": {
+			"keccak256": "0x17d912d74fd00cc74e44a386fb1b36ea7be64e9813f70c82c88e5cef7d8b1f67",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d47af31cf51443f8bd03fb1784bc91f239a5f538d698c9c7a540dd5a21381a5c",
+				"dweb:/ipfs/QmQM9GrWoPvbQJomJ4H8QrLYKSKFeWNqgj1nzbKNknxwdE"
+			]
+		}
+	},
+	"version": 1
+}

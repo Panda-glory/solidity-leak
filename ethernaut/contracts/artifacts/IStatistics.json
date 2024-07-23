@@ -1,0 +1,142 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "",
+			"opcodes": "",
+			"sourceMap": ""
+		},
+		"gasEstimates": null,
+		"methodIdentifiers": {
+			"createNewInstance(address,address,address)": "7e4326d3",
+			"saveNewLevel(address)": "cd819a6f",
+			"submitFailure(address,address,address)": "d0f191e0",
+			"submitSuccess(address,address,address)": "2c038c32"
+		}
+	},
+	"abi": [
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "instance",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "level",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "player",
+					"type": "address"
+				}
+			],
+			"name": "createNewInstance",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "level",
+					"type": "address"
+				}
+			],
+			"name": "saveNewLevel",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "instance",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "level",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "player",
+					"type": "address"
+				}
+			],
+			"name": "submitFailure",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		},
+		{
+			"inputs": [
+				{
+					"internalType": "address",
+					"name": "instance",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "level",
+					"type": "address"
+				},
+				{
+					"internalType": "address",
+					"name": "player",
+					"type": "address"
+				}
+			],
+			"name": "submitSuccess",
+			"outputs": [],
+			"stateMutability": "nonpayable",
+			"type": "function"
+		}
+	]
+}

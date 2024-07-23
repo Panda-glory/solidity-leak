@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/TelephoneAttack.sol": "TelephoneAttract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Telephone.sol": {
+			"keccak256": "0x8283acb7f945ebdfbfd6a48347c666989e66e4e99ca263928a2308433d18fe91",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://64ea6c159fe20159eacc1fd19a8d122a98bf9918dcb0d042704ddf44e6c669d6",
+				"dweb:/ipfs/QmNsTJk26GtFTTfJTkPwDEMoJ3h17tfmQdPHttQPazbhK1"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/TelephoneAttack.sol": {
+			"keccak256": "0x25251001633b45ecb202ccd1c662d66c55daa7da14a8f9b4eac0ae2d62a95df6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c16b40ad2fb99a89f12b3dac2372a176b0a0ce4225ce5f3442deef95f091b12",
+				"dweb:/ipfs/QmU5zNu7h4PwLXGUnvmj5X7JVmdRcyJc7wmvwT8Tm4XK7a"
+			]
+		}
+	},
+	"version": 1
+}

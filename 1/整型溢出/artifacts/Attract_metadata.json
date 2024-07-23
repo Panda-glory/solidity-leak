@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Cal",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/整型溢出/1attract.sol": "Attract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/整型溢出/1.sol": {
+			"keccak256": "0x0b295dd5f7f25bf5b252b4417174be973068d2372926601a39c3e91bec2956b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://184054c328a0489e49f7d47963255334f9bd971fc1eb287b44ef9e934a6e2465",
+				"dweb:/ipfs/QmS6yS3nQUeRhtUhtQwrEM3FrSqf5K886KCNx1q1SNKoXJ"
+			]
+		},
+		"shoot/1/整型溢出/1attract.sol": {
+			"keccak256": "0x1c8a4f80e11e3cdca66dbbd78cb4c140718fd016469605985b3345adb5c273c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4eb12c0caeff791ae002759fab6279ef5b0564c05d24c5a2440b375a0fc644f7",
+				"dweb:/ipfs/QmRdgiZ1bNBLVneae5GCeenz87KccVtiWL77MCFhjYxujP"
+			]
+		}
+	},
+	"version": 1
+}

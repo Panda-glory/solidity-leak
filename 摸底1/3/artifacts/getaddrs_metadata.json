@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getaddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/摸底1/3/1.sol": "getaddrs"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/摸底1/3/1.sol": {
+			"keccak256": "0xa0a162d52895ca5db27d5f6301d9f1efd8b50aebc0092c7ce02e8771bb39ed48",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://4b03b11257260663b317d92011bea6e76e9f15fc6d503b502c1c2c374848f4cd",
+				"dweb:/ipfs/QmUuggkiTyp64vPv1T4LnQxyDYx3RChnUUsE8mFfGBFHas"
+			]
+		}
+	},
+	"version": 1
+}

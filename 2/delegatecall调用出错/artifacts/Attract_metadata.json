@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "me",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_addr",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "time",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/delegatecall调用出错/1attract.sol": "Attract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/delegatecall调用出错/1.sol": {
+			"keccak256": "0x234511abec9ffececc40ed975e3b768c43ee93cb304e6c54895e580f0245cbe1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f5b4fee0db6d827debf5f8be635e6e8f3c0fdc4df1ea222dd080bc6e65449e8",
+				"dweb:/ipfs/QmfAnjGym4upYf6cG8xtso46iNixDktpTsjtfWJLPUyfKp"
+			]
+		},
+		"shoot/2/delegatecall调用出错/1attract.sol": {
+			"keccak256": "0x3f303b65ea389db01d5b87353f232e73ac6f7b18b1df88458ff29907e5adfe49",
+			"urls": [
+				"bzz-raw://e67f1851481805aa724234367b736bc2f92a9a0856d0ac4ca1c40ca9b146766f",
+				"dweb:/ipfs/QmZmMhojiQaW4w4uXBLw6uC6QCFBSBaxhUX75GeUwYknVj"
+			]
+		}
+	},
+	"version": 1
+}

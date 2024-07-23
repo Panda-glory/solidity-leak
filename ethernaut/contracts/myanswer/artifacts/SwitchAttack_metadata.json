@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/SwitchAttack.sol": "SwitchAttack"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Switch.sol": {
+			"keccak256": "0x75cf11edbcf4932824fadcb38c39616ddf5f55050e58e909c4e8f29564ab5c0b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5bb87f9cdd9a601cc25f6397d8f585d662c38f8d31f2a1059729545ace024a6",
+				"dweb:/ipfs/QmbCXMS4xS5JB8zmZzQcBZNyoZ1kNjEuJNdrLpmMcKGw7s"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/SwitchAttack.sol": {
+			"keccak256": "0x7a4047b863673d8a65ad5947413e1da078eb7f49bd56a50a1274e39edc2568d5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5a7f8722dfffefee71082a9c5b7f59ec4d75c81478ce8bf4063b50470bbeaeb",
+				"dweb:/ipfs/QmfRQ1ZU2jDhdJTHQGWzifXhXapFXB3f3hnEXf9sHFp3vd"
+			]
+		}
+	},
+	"version": 1
+}

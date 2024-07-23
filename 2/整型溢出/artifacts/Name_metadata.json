@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/整型溢出/2.sol": "Name"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/整型溢出/2.sol": {
+			"keccak256": "0xd0d381ddd7235a982bd725621db8514174d5aabfb425cccf208e1d4d529b8a9f",
+			"urls": [
+				"bzz-raw://784de981f8667847f7ab06a61a624a5a847259dcd6b5c51a54a61a08e77b7bc2",
+				"dweb:/ipfs/QmQur7uem2HYXcHfyFLa2WX9iEzjtrGgPGM8RR9Fp1dXGE"
+			]
+		}
+	},
+	"version": 1
+}

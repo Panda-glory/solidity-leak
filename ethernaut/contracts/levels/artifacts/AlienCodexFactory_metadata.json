@@ -1,0 +1,192 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_player",
+						"type": "address"
+					}
+				],
+				"name": "createInstance",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_instance",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_player",
+						"type": "address"
+					}
+				],
+				"name": "validateInstance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"isOwner()": {
+					"details": "Returns true if the caller is the current owner."
+				},
+				"owner()": {
+					"details": "Returns the address of the current owner."
+				},
+				"renounceOwnership()": {
+					"details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner.     * > Note: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner."
+				},
+				"transferOwnership(address)": {
+					"details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/levels/AlienCodexFactory.sol": "AlienCodexFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/helpers/Ownable-05.sol": {
+			"keccak256": "0x5e152d4fe867c54125b89610a2e423d7711248e925115054441fe4a346d9d3b8",
+			"urls": [
+				"bzz-raw://e7b63ef3732147f372ec97ebb70322f9d744a66b86c167104e1556a1369d61cb",
+				"dweb:/ipfs/QmSGLsC8Y3A8PnCjJaq4poQnTUPkZ5CQSt3z1VpU3cjHKx"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/AlienCodex.sol": {
+			"keccak256": "0xe37452d20d2bf2e24db6f336db7d0b8626d2e5a0399e56ed28fd5f45597deba0",
+			"urls": [
+				"bzz-raw://392c0fd577373ed2674b08f9e4cc36f9124a5becfa27e6987a8d567ae8012334",
+				"dweb:/ipfs/QmbLqY1vJjdFZ1QbmrDhEEYgNDCcjLa5xRNVDaKshH3M6V"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/AlienCodexFactory.sol": {
+			"keccak256": "0xaa777af0bf2360124d55d5cfb8fe96a4a5ac44ba895e05f724b8af20515ef54a",
+			"urls": [
+				"bzz-raw://05e11b3bfeceeb6245c9a0c30521ae6753b3890278fa8ddf2c04af818bf88d20",
+				"dweb:/ipfs/QmTrCoqzQuFaLhhuwxPerkeXWmTLHjePCxSNtmSEJjRpFC"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/base/Level-05.sol": {
+			"keccak256": "0xaabb134163d2feda2375ac6f393f8b99ab30a26be73d5c348a88c3e8036c7cd9",
+			"urls": [
+				"bzz-raw://bca7205cc652f518d4570c58ebce71f7c88ac41f57280e828cce4af5dbeee226",
+				"dweb:/ipfs/QmXMFqcUiswx7pxzJ7kM4MknsL1KfvwZrBJcHufjATuCfy"
+			]
+		}
+	},
+	"version": 1
+}

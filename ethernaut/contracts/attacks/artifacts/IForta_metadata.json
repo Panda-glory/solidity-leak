@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "msgData",
+						"type": "bytes"
+					}
+				],
+				"name": "notify",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "raiseAlert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "detectionBotAddress",
+						"type": "address"
+					}
+				],
+				"name": "setDetectionBot",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/attacks/DetectionBot.sol": "IForta"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/attacks/DetectionBot.sol": {
+			"keccak256": "0xd88ed7d2fabb3c2a660032eaea0fd25525d547231799ff7245ed5be7d4c77b7f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a2fc5d72c8d5484783bcca0a18cd8e8210a905e52de73e46707b8dd55533648b",
+				"dweb:/ipfs/QmP9Sw9sJyHdVzm6ibAtwLiMWgtQxRtwuDsmrgFpjWwqXt"
+			]
+		}
+	},
+	"version": 1
+}

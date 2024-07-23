@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_check",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/dos/dos.sol": "ToCheck"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/dos/dos.sol": {
+			"keccak256": "0x5555041e514e93985d78ba0f01311a5a65e018e6b67f8bf51706f083abd73b7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2fbfc2c60bd07e933e2eed7f3305b8dbff5c38856a13b56df0cf92624a27e15",
+				"dweb:/ipfs/QmVUbVwoJSrpemXsidPN1nmQ6bVPs3eC2oUu3pvZerW2FH"
+			]
+		}
+	},
+	"version": 1
+}

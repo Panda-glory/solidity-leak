@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/摸底1/4/1.sol": "at"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/摸底1/4/1.sol": {
+			"keccak256": "0x2eca80334e7e853fa403664a7b3488126283ffc92be56cb8d54534631eebc529",
+			"urls": [
+				"bzzr://4aa7376cdb75a300d1d3ee4d01542c5abbabfd8fc116333c88338c502cb4a91b"
+			]
+		}
+	},
+	"version": 1
+}

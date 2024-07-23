@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/DenialAttack.sol": "DenialAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Denial.sol": {
+			"keccak256": "0x23bb47e9f287c4231b450e4253a5f4905e7ceced3ed767e94bfc3020b27e56f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1ac33098a448763e0789d7ed96d664a548215021e25c43843592379898c522d7",
+				"dweb:/ipfs/QmSPujMhLdnvkWEEcPgX21d5b1a6NmtXd9FZs95KfPjuBv"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/DenialAttack.sol": {
+			"keccak256": "0x4420716ef09e7556efef161b99118c21dcadc442fc24cc8c45d4a610a7e7de82",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0836704f0f53fdf7551f66b6c4cc44397c5cfb70fee4f9cd2ed14e7558409b7e",
+				"dweb:/ipfs/QmVUZSL9R22u7oRFG39Cd8UgCYXS8DaStoChiQghCHfvie"
+			]
+		}
+	},
+	"version": 1
+}

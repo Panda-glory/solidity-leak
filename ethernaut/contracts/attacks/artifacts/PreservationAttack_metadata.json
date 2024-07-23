@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "addressAsUint",
+						"type": "uint256"
+					}
+				],
+				"name": "setTime",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/attacks/PreservationAttack.sol": "PreservationAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/attacks/PreservationAttack.sol": {
+			"keccak256": "0xd13ec4d923e200616c1a81d45710d7e833ae8a4ced5ed6dd844631494e187f39",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c2b130a7e378db8b8c38a609181a7cd2668201dd527006277d4d58651f8f549",
+				"dweb:/ipfs/QmaTAPxBMxiVH1XWMumTmkuCsBs4Xqb8E8NsuhSC2WCBsc"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/KingAttack.sol": "KingAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/King.sol": {
+			"keccak256": "0x32dcaaf5a80513e2708bf56bdc8e902ffd76736c43f6cbd7daed016bcc0f47e2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3313fb8d38b66e312e44e8b61620e27b1bdc95d318cbcd6cae2b2700625be62e",
+				"dweb:/ipfs/QmavgprHaN1bmz4qpaeDJB515dAB9tf8aneVgakjX2AMXp"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/KingAttack.sol": {
+			"keccak256": "0xa2d7692562f288ca2c8b6a33fec7eef4c7603e1365880efd3273f6d7e588a942",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6872cfd596df5860df2bafb315c7c79f660d7681427dcc413386c7d3824823e",
+				"dweb:/ipfs/QmbsNsKKJ7E8iiMTM3FGr2srrXqzNkkz4pxaWCgbf27fr5"
+			]
+		}
+	},
+	"version": 1
+}

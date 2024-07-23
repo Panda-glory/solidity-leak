@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_salt",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "address",
+						"name": "found",
+						"type": "address"
+					}
+				],
+				"name": "getaddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/create_create计算/1.sol": "foundaddress"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/create_create计算/1.sol": {
+			"keccak256": "0xae95302fea45a8ac4300adcb0f821142f28e64adcf903f4e7e4fe0768b843987",
+			"urls": [
+				"bzz-raw://a9dc86d23024d3bd94e7f693c1104cd23ce6d7780b839aa3448a8a9eb83ae6ae",
+				"dweb:/ipfs/QmRBR465za4UhKXoHJXUNfmFarhyysFvcSyy2QJBAfJFpS"
+			]
+		}
+	},
+	"version": 1
+}

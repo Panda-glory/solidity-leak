@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "price",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/ShopAttack.sol": "ShopAttack"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Shop.sol": {
+			"keccak256": "0xd8a748fdf0f7fdffa8887f56e815beb3e6fb4be1c8781afc7b180ef47799eb26",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8b0266051735eb9bf14683c45ab7a1f8851c58b8ecdf1c8c0746c26c83e042dd",
+				"dweb:/ipfs/QmZFEBAd9MB5YtWqFfW1HWLmyx11CkXgTbgLGUCTwJXY5x"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/ShopAttack.sol": {
+			"keccak256": "0xf6df4cc1c9df15bd6b67afb4532b0a2e3d16830f5b57688a17e0502aa73616ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://be23229017b0e964de39d406dda3e65de7200152b4d3c8d6117b92907c7c71d9",
+				"dweb:/ipfs/QmZpyN9Xhp69Bgui9v3L6cWNytcmM6ZenLLuMQLoDrQUb3"
+			]
+		}
+	},
+	"version": 1
+}

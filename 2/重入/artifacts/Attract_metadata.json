@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "revertether",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/重入/1attract.sol": "Attract"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/重入/1.sol": {
+			"keccak256": "0xc9dfd59a310c968e868b1e0ca7811fbb18c69b2c460819fdc1935582a99d268e",
+			"urls": [
+				"bzzr://faa1070c80a2c54aa7fd4c1c82a00e53a8cf20dc53a3f03819f090db4b1e01b4"
+			]
+		},
+		"shoot/2/重入/1attract.sol": {
+			"keccak256": "0xfb4bf73efacb0e08125c373975f3c0114eea7efa518739e903767829f32f0253",
+			"urls": [
+				"bzzr://7afff1830c00d868d5819d5f9fc477712e9e4d41e680ee970ab6ca43fd0a788a"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "slot",
+						"type": "uint256"
+					}
+				],
+				"name": "getOverflowindex",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "attact",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "slot",
+						"type": "uint256"
+					}
+				],
+				"name": "getstorage",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/数组长度溢出/1attract.sol": "Attact"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/数组长度溢出/1.sol": {
+			"keccak256": "0x2fcf39952f3824dab99898a0cbcd4c2d2f91e9f8cfdaf9620f2db62e1b8b3952",
+			"urls": [
+				"bzzr://cfbd4ed80871f1542f627cb5ec75261f6af3d6dcc52df7d5b198c49511017fe2"
+			]
+		},
+		"shoot/1/数组长度溢出/1attract.sol": {
+			"keccak256": "0x89b559b9ecfebcd046fd37b567fd18a6419978564de965edf798e1c18c0bcac8",
+			"urls": [
+				"bzzr://c5a3e54c26af8c8eb78b676e3ccd535941424be5b28ba4dc32d6061326b4a7ad"
+			]
+		}
+	},
+	"version": 1
+}

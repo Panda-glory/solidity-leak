@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract vulquery",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "aatract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/可预测的随机数/1attrract.sol": "Attract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/可预测的随机数/1.sol": {
+			"keccak256": "0x353b2b478a92c9dcd0fefb6aecca150d5b1875676c9a7536ba96986911753a61",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6818aaba8dc4b3019e4519d9916ad74850a7fd3f30c11f8dd57e236c9e1db74d",
+				"dweb:/ipfs/QmYbcnHq3qXritUxr1W39T3BaJiUiLVT5xjbd71z2BLdof"
+			]
+		},
+		"shoot/1/可预测的随机数/1attrract.sol": {
+			"keccak256": "0x1fa435bfc986d413427c53d0fbf52aecacce114ebe1cc70a25e1ca605cf4f72e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec31267efba974078b3af5f8a32c8294d93b998be3fbe6c7b5e88267ac67b426",
+				"dweb:/ipfs/Qmb4UT4DmGJ37XSrzndaDeebVGqTophYRGQ8NHBxS5iAp6"
+			]
+		}
+	},
+	"version": 1
+}

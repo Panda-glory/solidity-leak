@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "geteth",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/tx.origin误用/1attract.sol": "v"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/tx.origin误用/1.sol": {
+			"keccak256": "0x5ec5c488d2a7c8cd39995fbeb40d1170ef8bd6920d5e66ad442c9f5ace2c6cef",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://09c14ef99a887ff4e51c5698198218b35b837740f47490e869db843ef00fbe75",
+				"dweb:/ipfs/Qmar2zjBXpLgxx7czdiHSR6f2zYYLFEVQJ4N93DDks5mwP"
+			]
+		},
+		"shoot/1/tx.origin误用/1attract.sol": {
+			"keccak256": "0x9df285bf4d3adfe6c9131c3f705ef4c8bacebd51b0a3571fcc3b5cd06c7416da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5374059940e4831d96bcada89b41cfe81f0febb9fdafc269d346c46c9b5312d8",
+				"dweb:/ipfs/QmPQCjyxNRPsmwGrc32eHMhTNtiJGmYDmMG7d4dWCuQfdQ"
+			]
+		}
+	},
+	"version": 1
+}

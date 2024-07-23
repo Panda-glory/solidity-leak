@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Bank",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/call调用返回值检查/1attract.sol": "Attract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/call调用返回值检查/1.sol": {
+			"keccak256": "0x92434f5892e28acbe5ec28f1a4601f115a379c2463758adb3b85a785146acadf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ee8204c363165428802d7dd080b2fde3091be86a587bd2137e129c0d808b376f",
+				"dweb:/ipfs/QmTH7Xm5BBgeoRiPvA5kXGRVZrSegWg3XsmLEnojfdTXnV"
+			]
+		},
+		"shoot/2/call调用返回值检查/1attract.sol": {
+			"keccak256": "0x6564891b617e8627110e7cdd238ecc02ee54786ac4bb181114be3f59ce54a1ca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://925bf5563753fda8e993def3e33657fe043e911c8726b13434bd8e011ce69492",
+				"dweb:/ipfs/QmWJwFjP4yCQ5TdGt9VurC1aPLnQXaxbYxcPvYXtwKRnMk"
+			]
+		}
+	},
+	"version": 1
+}

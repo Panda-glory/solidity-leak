@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract safeBank",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "sig",
+						"type": "bytes"
+					}
+				],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getsig",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "a",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/智能合约验签/1.sol": "att"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/智能合约验签/1.sol": {
+			"keccak256": "0x62d66ec353273a5da39307b5520727b802b7b051db0c57383dcc83bb2ff8adfd",
+			"urls": [
+				"bzz-raw://cf087350e89bf2feafb048621757f8c8916434f71bf108797682f1cf7e71e4fb",
+				"dweb:/ipfs/QmRR7XcH6QDwrYJ3KQKjNkGJzsLiS1BV9nKtLk7JkArKQH"
+			]
+		}
+	},
+	"version": 1
+}

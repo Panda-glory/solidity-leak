@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/3/数组长度溢出/1.sol": "getA"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/3/数组长度溢出/1.sol": {
+			"keccak256": "0xe50b3fae42a49d54c02ffa1cdd9b39ee0fe360dd148985b83119c1010c2d57cc",
+			"urls": [
+				"bzzr://aa64049b8d3fac5fea88e4849875e6c9193ce81b579b3ce49865dac7444e6788"
+			]
+		}
+	},
+	"version": 1
+}

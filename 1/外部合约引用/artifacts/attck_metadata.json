@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_tokenbank",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "complete",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/外部合约引用/2attract.sol": "attck"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/外部合约引用/2.sol": {
+			"keccak256": "0x945ea29ea08d6a2266eae8d7d3133bc50c3f34b5abe59e205cab27c0cc784d77",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://42fc8fe9a7cf6da8da851de6112279bfff57ec0906e6a10e0c87125e088c1030",
+				"dweb:/ipfs/QmTgzFyht2KZZ2mX5PpJxHcTW3x93c5MZDPKAJTKvpJw7y"
+			]
+		},
+		"shoot/1/外部合约引用/2attract.sol": {
+			"keccak256": "0xda4d8f46df53389e17b54393cf47c7b15cecff88c8df4e216359b2fcc1c80ccb",
+			"urls": [
+				"bzz-raw://7e6cae4377a4a3ceab95f048fd648afadf35e1e2b11a3b530522f3890d81ccec",
+				"dweb:/ipfs/QmTsj7TQjjmYjAq66NVqqWHoM9oDPtPPqHB9zVqeXgHiqi"
+			]
+		}
+	},
+	"version": 1
+}

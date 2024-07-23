@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/ForceAttack.sol": "ForceAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/myanswer/ForceAttack.sol": {
+			"keccak256": "0xcb91acbe7a6a63ce590502bd17648e6382ebcc4c11686d5dc481a3f89db98be6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f0600dfe72814626c91d6207cfc3e75c13cd185eeec5aac993134921b638fb01",
+				"dweb:/ipfs/QmX2kC7BP2fjpZtVMs4kbSxV52TpEqmy3YBdWnFQiKdsz7"
+			]
+		}
+	},
+	"version": 1
+}

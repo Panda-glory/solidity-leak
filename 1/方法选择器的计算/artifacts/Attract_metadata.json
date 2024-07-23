@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Cake",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/方法选择器的计算/1attrcat.sol": "Attract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/方法选择器的计算/1.sol": {
+			"keccak256": "0xdb24193b4dce0d2dec607bf8161d6928d951a3b1395fe2fe9068b1133fd51d54",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7cd04bcdca6cb266b57508aa8ac61f3c3d441c96978781dc38557e408c9f89a9",
+				"dweb:/ipfs/QmY2boMVAEEzYfqw8umKRc6qfci9nVWwHfwwcF3zVjAZTH"
+			]
+		},
+		"shoot/1/方法选择器的计算/1attrcat.sol": {
+			"keccak256": "0xe5e32f1cfeee35000b7559e96c6f08d8d789f1a50653a81f98bbed3d2340ebe3",
+			"urls": [
+				"bzz-raw://1bc957ec5f2040d9f8f77012186458b95e620ae808fb2dd275e8c925e28ad3bd",
+				"dweb:/ipfs/QmWF93Jhm2Lm9SWZD6g63pSTGn8i6PAWjtXuWn7mkS6UFs"
+			]
+		}
+	},
+	"version": 1
+}

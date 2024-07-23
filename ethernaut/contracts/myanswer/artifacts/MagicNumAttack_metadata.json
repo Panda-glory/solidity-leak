@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "factory",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "whatIsTheMeaningOfLife",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/MagicNumAttack.sol": "MagicNumAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OpenZeppelin-code/openzeppelin-contracts/contracts/access/Ownable.sol": {
+			"keccak256": "0xee2b6bc803215b66037612da0fe9f23ec3c99ff89db4ff05449a8df17c9befc5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://127be279bb6b2f6106127ea6b431cfc879f9018dd76b7575841821be9eef3488",
+				"dweb:/ipfs/QmfXqvL6sKx256hrVuQcSnNtirZrpm4JUbDFXwGHKgrrXU"
+			]
+		},
+		"OpenZeppelin-code/openzeppelin-contracts/contracts/utils/Context.sol": {
+			"keccak256": "0x81d5fc973a522c8909d60be6a201869d46aa47b030b8813f60616404628c2b94",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9755b505799e622d964a843a8ed1fd60fedffca230178e5cb95ae9280df4dcd2",
+				"dweb:/ipfs/QmRkhUYUUgRZ2QYJjmtQct2ubyYwS3bdUMhbuFYM12VfYn"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/MagicNum.sol": {
+			"keccak256": "0xce0299c7a4bd81ba005738dfb10eea0e4ea2c6dd65ad2ee678dc726aff8b673f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ce36d4eb872c3414e1a7d6cafceff0e8a0119c9322a74d866d81f280f43a053",
+				"dweb:/ipfs/QmZrAfj4y6LAmnuY2FAXDUfYMhzruyMsQV44o23dkFz7xY"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/MagicNumFactory.sol": {
+			"keccak256": "0x49a6f1757cf801d6c86f69037394adc4f288889d7c6371b643d8cb804a560776",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://48f4a9d26b78894745cf7e5c41103e3a54c832b2fcd1449e0e48dd9f67312cf5",
+				"dweb:/ipfs/Qmasic8k38UHNKd4U8F3VN1ZcNmo6RG7e5cy5XxqJk5k7p"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/base/Level.sol": {
+			"keccak256": "0xe6fe8b9de98a6378d8f629d51acf0267c259b68720e976ca57c122d3e3a29dd3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://153f48302e587fa379fcad9715233339c764f0e17759cdef7efd74a099e50c61",
+				"dweb:/ipfs/QmQgSexPQs525QERrPmTytfj5jtvfK9ctyAPNg44x688FH"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/MagicNumAttack.sol": {
+			"keccak256": "0xe298513b308faef6338b1a7568e159ed60d9fc82af7da9a2c99ec27b470add16",
+			"urls": [
+				"bzz-raw://f8efcc02ffe44c4e723af861a5dcc0a1aae30be1f7eee06c892f541dab968bb2",
+				"dweb:/ipfs/QmefHy6jx8ZDMBQR59TvVqh7Hjg9V2CoAU6uB6CRBkpTpy"
+			]
+		}
+	},
+	"version": 1
+}

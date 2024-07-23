@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.4.26+commit.4563c3fc"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "attract",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/未初始化的局部storage/1.sol": "att"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/未初始化的局部storage/1.sol": {
+			"keccak256": "0xcd9f5809fb8e81b7b3a339a8aade1f87af4753233edcfb9549b5f73fae832792",
+			"urls": [
+				"bzzr://6cdd830ab4d3fa9d02f03d135374fc1367a0c96beb235c632b4a729ae2e09e34"
+			]
+		}
+	},
+	"version": 1
+}

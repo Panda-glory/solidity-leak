@@ -1,0 +1,454 @@
+{
+	"id": "835c9d755a482cedd6f22a300afcbf31",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.21",
+	"solcLongVersion": "0.8.21+commit.d9974bed",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol": {
+				"content": "// SPDX-License-Identifier: MIT\n\npragma solidity ^0.8.0;\n\ncontract MagicNumSolver {\n  constructor() {\n    assembly {\n\n      // This is the bytecode we want the program to have:\n      // 00 PUSH1 2a /* push dec 42 (hex 0x2a) onto the stack */\n      // 03 PUSH1  0 /* store 42 at memory position 0 */\n      // 05 MSTORE\n      // 06 PUSH1 20 /* return 32 bytes in memory */\n      // 08 PUSH1 0\n      // 10 RETURN\n      // Bytecode: 0x602a60005260206000f3 (length 0x0a or 10)\n      // Bytecode within a 32 byte word:\n      // 0x00000000000000000000000000000000000000000000604260005260206000f3 (length 0x20 or 32)\n      //                                               ^ (offset 0x16 or 22)\n      \n      mstore(0, 0x602a60005260206000f3)\n      return(0x16, 0x0a)\n    }\n  }\n}\n"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol": {
+				"MagicNumSolver": {
+					"abi": [
+						{
+							"inputs": [],
+							"stateMutability": "nonpayable",
+							"type": "constructor"
+						}
+					],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":58:769  contract MagicNumSolver {... */\n  mstore(0x40, 0x80)\n    /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":86:767  constructor() {... */\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n    /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":709:731  0x602a60005260206000f3 */\n  0x602a60005260206000f3\n    /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":706:707  0 */\n  0x00\n    /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":699:732  mstore(0, 0x602a60005260206000f3) */\n  mstore\n    /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":752:756  0x0a */\n  0x0a\n    /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":746:750  0x16 */\n  0x16\n    /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":739:757  return(0x16, 0x0a) */\n  return\nstop\n\nsub_0: assembly {\n        /* \"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":58:769  contract MagicNumSolver {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220414392099dc0b117f779d30001a974f07b808e1ddc3d0d8fabb9ec77d865f1ec64736f6c63430008150033\n}\n",
+						"bytecode": {
+							"functionDebugData": {
+								"@_6": {
+									"entryPoint": null,
+									"id": 6,
+									"parameterSlots": 0,
+									"returnSlots": 0
+								}
+							},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600e575f80fd5b5069602a60005260206000f35f52600a6016f3fe",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH10 0x602A60005260206000F3 PUSH0 MSTORE PUSH1 0xA PUSH1 0x16 RETURN INVALID ",
+							"sourceMap": "58:711:0:-:0;;;86:681;;;;;;;;;;709:22;706:1;699:33;752:4;746;739:18"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "60806040525f80fdfea2646970667358221220414392099dc0b117f779d30001a974f07b808e1ddc3d0d8fabb9ec77d865f1ec64736f6c63430008150033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 COINBASE NUMBER SWAP3 MULMOD SWAP14 0xC0 0xB1 OR 0xF7 PUSH26 0xD30001A974F07B808E1DDC3D0D8FABB9EC77D865F1EC64736F6C PUSH4 0x43000815 STOP CALLER ",
+							"sourceMap": "58:711:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12400",
+								"executionCost": "56",
+								"totalCost": "12456"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 58,
+									"end": 769,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 58,
+									"end": 769,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 58,
+									"end": 769,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 86,
+									"end": 767,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 709,
+									"end": 731,
+									"name": "PUSH",
+									"source": 0,
+									"value": "602A60005260206000F3"
+								},
+								{
+									"begin": 706,
+									"end": 707,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 699,
+									"end": 732,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 752,
+									"end": 756,
+									"name": "PUSH",
+									"source": 0,
+									"value": "A"
+								},
+								{
+									"begin": 746,
+									"end": 750,
+									"name": "PUSH",
+									"source": 0,
+									"value": "16"
+								},
+								{
+									"begin": 739,
+									"end": 757,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220414392099dc0b117f779d30001a974f07b808e1ddc3d0d8fabb9ec77d865f1ec64736f6c63430008150033",
+									".code": [
+										{
+											"begin": 58,
+											"end": 769,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 58,
+											"end": 769,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 58,
+											"end": 769,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 58,
+											"end": 769,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 58,
+											"end": 769,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 58,
+											"end": 769,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							},
+							"sourceList": [
+								"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol",
+								"#utility.yul"
+							]
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.21+commit.d9974bed\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":\"MagicNumSolver\"},\"evmVersion\":\"shanghai\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol\":{\"keccak256\":\"0x4698a4935d84d140766102bee1b9277deb414b0e526afe72068ba62b85a5ce40\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://94af57c2e4857ed8f4c4e40ec91fad0245e13a3db10e38c5194e0651d53fbc2a\",\"dweb:/ipfs/QmUqKFYHjbGGoKvZpeERx3tj42Q5dL13mybp5KQMkypain\"]}},\"version\":1}",
+					"storageLayout": {
+						"storage": [],
+						"types": null
+					},
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"sources": {
+			"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol": {
+				"ast": {
+					"absolutePath": "shoot/ethernaut/contracts/attacks/MagicNumSolver.sol",
+					"exportedSymbols": {
+						"MagicNumSolver": [
+							7
+						]
+					},
+					"id": 8,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:23:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"canonicalName": "MagicNumSolver",
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 7,
+							"linearizedBaseContracts": [
+								7
+							],
+							"name": "MagicNumSolver",
+							"nameLocation": "67:14:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [
+								{
+									"body": {
+										"id": 5,
+										"nodeType": "Block",
+										"src": "100:667:0",
+										"statements": [
+											{
+												"AST": {
+													"nativeSrc": "115:648:0",
+													"nodeType": "YulBlock",
+													"src": "115:648:0",
+													"statements": [
+														{
+															"expression": {
+																"arguments": [
+																	{
+																		"kind": "number",
+																		"nativeSrc": "706:1:0",
+																		"nodeType": "YulLiteral",
+																		"src": "706:1:0",
+																		"type": "",
+																		"value": "0"
+																	},
+																	{
+																		"kind": "number",
+																		"nativeSrc": "709:22:0",
+																		"nodeType": "YulLiteral",
+																		"src": "709:22:0",
+																		"type": "",
+																		"value": "0x602a60005260206000f3"
+																	}
+																],
+																"functionName": {
+																	"name": "mstore",
+																	"nativeSrc": "699:6:0",
+																	"nodeType": "YulIdentifier",
+																	"src": "699:6:0"
+																},
+																"nativeSrc": "699:33:0",
+																"nodeType": "YulFunctionCall",
+																"src": "699:33:0"
+															},
+															"nativeSrc": "699:33:0",
+															"nodeType": "YulExpressionStatement",
+															"src": "699:33:0"
+														},
+														{
+															"expression": {
+																"arguments": [
+																	{
+																		"kind": "number",
+																		"nativeSrc": "746:4:0",
+																		"nodeType": "YulLiteral",
+																		"src": "746:4:0",
+																		"type": "",
+																		"value": "0x16"
+																	},
+																	{
+																		"kind": "number",
+																		"nativeSrc": "752:4:0",
+																		"nodeType": "YulLiteral",
+																		"src": "752:4:0",
+																		"type": "",
+																		"value": "0x0a"
+																	}
+																],
+																"functionName": {
+																	"name": "return",
+																	"nativeSrc": "739:6:0",
+																	"nodeType": "YulIdentifier",
+																	"src": "739:6:0"
+																},
+																"nativeSrc": "739:18:0",
+																"nodeType": "YulFunctionCall",
+																"src": "739:18:0"
+															},
+															"nativeSrc": "739:18:0",
+															"nodeType": "YulExpressionStatement",
+															"src": "739:18:0"
+														}
+													]
+												},
+												"evmVersion": "shanghai",
+												"externalReferences": [],
+												"id": 4,
+												"nodeType": "InlineAssembly",
+												"src": "106:657:0"
+											}
+										]
+									},
+									"id": 6,
+									"implemented": true,
+									"kind": "constructor",
+									"modifiers": [],
+									"name": "",
+									"nameLocation": "-1:-1:-1",
+									"nodeType": "FunctionDefinition",
+									"parameters": {
+										"id": 2,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "97:2:0"
+									},
+									"returnParameters": {
+										"id": 3,
+										"nodeType": "ParameterList",
+										"parameters": [],
+										"src": "100:0:0"
+									},
+									"scope": 7,
+									"src": "86:681:0",
+									"stateMutability": "nonpayable",
+									"virtual": false,
+									"visibility": "public"
+								}
+							],
+							"scope": 8,
+							"src": "58:711:0",
+							"usedErrors": [],
+							"usedEvents": []
+						}
+					],
+					"src": "33:737:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

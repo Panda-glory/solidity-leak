@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract stringer",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getstorageindex",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/动态数据类型的存储方式/1attract.sol": "Attract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol": {
+			"keccak256": "0x07ac95acad040f1fb1f6120dd0aa5f702db69446e95f82613721879d30de0908",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9df9de7b5da1d1bd3d4b6c073d0174bc4211db60e794a321c8cb5d4eae34685",
+				"dweb:/ipfs/QmWe49zj65jayrCe9jZpoWhYUZ1RiwSxyU2s7SBZnMztVy"
+			]
+		},
+		"shoot/1/动态数据类型的存储方式/1.sol": {
+			"keccak256": "0x4387fe0327d5aa6ddc9a52a5022eb5513be54ca8ae4bf17b5b1c83768aa42d7a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e5f02c6c53902136056d0947e19d4086365aa03a461a4ef5ade309aa64de2ddf",
+				"dweb:/ipfs/QmTPwFe53Jog9fihkaaGUxAAfMMydiqtuPTSPNVFQ4qfES"
+			]
+		},
+		"shoot/1/动态数据类型的存储方式/1attract.sol": {
+			"keccak256": "0xcc0d210286445f4cbee90c0721f24ddc5b8d72326e6567ac0acca10fd6e6a76a",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://22c4050f7cf02d1fa9c9dbe6926ccaf509038e85718275d1a50e97f23de1f76a",
+				"dweb:/ipfs/Qmc7rkKtcEWRMPg35CzhHVsPgV9RLKDpJHYvMLF9pHnbCM"
+			]
+		}
+	},
+	"version": 1
+}

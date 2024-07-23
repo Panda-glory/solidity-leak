@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "addr2",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [
+					{
+						"internalType": "contract Check",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getscore",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tocheck",
+				"outputs": [
+					{
+						"internalType": "contract ToCheck",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/1/dos/dosattract.sol": "Attack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/1/dos/dos.sol": {
+			"keccak256": "0x5555041e514e93985d78ba0f01311a5a65e018e6b67f8bf51706f083abd73b7d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f2fbfc2c60bd07e933e2eed7f3305b8dbff5c38856a13b56df0cf92624a27e15",
+				"dweb:/ipfs/QmVUbVwoJSrpemXsidPN1nmQ6bVPs3eC2oUu3pvZerW2FH"
+			]
+		},
+		"shoot/1/dos/dosattract.sol": {
+			"keccak256": "0x08184b3967eebe4807d19b8412efc7272857e15cac22d2eb9fb49fe69af08f28",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://89b49fed4a3da29380ab0c3112bfa75f85d6f1b0a718d2bca64a7459cc5f29c1",
+				"dweb:/ipfs/QmNRb4TVShfLvbwL2MZLuzFGgdUdmDYeLBqrEZm3CHwAD4"
+			]
+		}
+	},
+	"version": 1
+}

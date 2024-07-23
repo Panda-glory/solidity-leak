@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"name": "doYourThing",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/attacks/KingAttack.sol": "KingAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/attacks/KingAttack.sol": {
+			"keccak256": "0x50a8950dc87fd70965444e8ed1ebd5363dd08955be87def26d5ae0e2c030c174",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8570c37b79d42dc45533cb1731bfea9675ec793ff92fbcbe2f11215d1532cee6",
+				"dweb:/ipfs/QmfXy1DkWVk4oaeGU5DssU94MQF3y55Xa1YxJgzbZTWEEk"
+			]
+		}
+	},
+	"version": 1
+}

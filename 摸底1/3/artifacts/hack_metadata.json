@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract market",
+						"name": "mar",
+						"type": "address"
+					}
+				],
+				"name": "pwn",
+				"outputs": [
+					{
+						"internalType": "uint128",
+						"name": "",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/摸底1/3/1.sol": "hack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/摸底1/3/1.sol": {
+			"keccak256": "0xad544fce03349d8842f87a020113f8698e7d61de3d15f55b1b97d487c157b690",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://1aaa100dea81015e067bfcc08aa57df28e23190837f1b8e77645ed873e290906",
+				"dweb:/ipfs/QmZ598W9y5egNwKrddsZ5f5bnxoTj9CKWCk5QfRwNv5YvU"
+			]
+		}
+	},
+	"version": 1
+}

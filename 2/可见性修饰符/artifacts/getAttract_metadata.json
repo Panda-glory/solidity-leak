@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/可见性修饰符/1.sol": "getAttract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/可见性修饰符/1.sol": {
+			"keccak256": "0x88e2c55d27173ab8a172866f9e0f257195e1b542fff7f686cf7f9dafe9f0a635",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://05adefff60b1b49878fc04e7864d57475ef930306cbc7d57e00ef6a699474bc4",
+				"dweb:/ipfs/QmWqssdAwa7cxS64PfaNPkwoF2FWC8vgqW6sp1iFWR8cH4"
+			]
+		}
+	},
+	"version": 1
+}

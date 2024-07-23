@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol": "MagicNumSolver"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/attacks/MagicNumSolver.sol": {
+			"keccak256": "0x4698a4935d84d140766102bee1b9277deb414b0e526afe72068ba62b85a5ce40",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://94af57c2e4857ed8f4c4e40ec91fad0245e13a3db10e38c5194e0651d53fbc2a",
+				"dweb:/ipfs/QmUqKFYHjbGGoKvZpeERx3tj42Q5dL13mybp5KQMkypain"
+			]
+		}
+	},
+	"version": 1
+}

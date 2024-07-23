@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_che",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "che",
+				"outputs": [
+					{
+						"internalType": "contract blocker",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "complete1",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "complete2",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "flag",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "revertether",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/可预测的随机数/1attract.sol": "attck"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/可预测的随机数/1.sol": {
+			"keccak256": "0x3e233670c345fff369b453912cafbc0d6f23502d20e5849f92189f3803b48410",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://e5c6dab6ad651cf53ce190a89d984eb9f4608d05fbbba6d92b76a3c77c52aa19",
+				"dweb:/ipfs/QmY2qh8uwQr7qmADPy84VMCqkJnVjUGMstA9nUSJNeBuzV"
+			]
+		},
+		"shoot/2/可预测的随机数/1attract.sol": {
+			"keccak256": "0xbaa55fafacf4c0b4e0402d2b45a5b72fe4bb19984b9f89f5394ddfdbfa0ecdb1",
+			"urls": [
+				"bzz-raw://e38fc3091e63322c1195f3e5ca384463e74e20dea8d8f109c86f8d0ccc06414f",
+				"dweb:/ipfs/QmQv6qDQ3cSmKMEd8RqpDKPRbL9NH6yWgMceeoftytXb4C"
+			]
+		}
+	},
+	"version": 1
+}

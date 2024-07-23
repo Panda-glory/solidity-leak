@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "goodSamaritan_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "NotEnoughBalance",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "attack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount_",
+						"type": "uint256"
+					}
+				],
+				"name": "notify",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/attacks/GoodSamaritanAttack.sol": "GoodSamaritanAttack"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"OpenZeppelin-code/openzeppelin-contracts/contracts/utils/Address.sol": {
+			"keccak256": "0xa41d7d2dbbeff548760b06a89ab596ff495f4ae91dcd17d4d13e8a3b3853c9fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://db62d884d97bc0f540d01cbb204225316cfd9c07f9c39e37ee66406d9abf74c6",
+				"dweb:/ipfs/QmfZ7RAJ76mDgxB6u37kJrpcdaxAhT2ot6bimp8yjHetpf"
+			]
+		},
+		"shoot/ethernaut/contracts/attacks/GoodSamaritanAttack.sol": {
+			"keccak256": "0xceb05871c01788bd2dfe548862c1e7a5c6f0ea4dfba9f564b8eb910a48836985",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://60b74516a5fa97957422217b443f04a8d4e81a94c9c2fcd9774447f2bbb8fe3f",
+				"dweb:/ipfs/QmaLT282Y7Yt2XS8x3zSN7arSfDukzv7rnFhZho5pzt5ru"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/GoodSamaritan.sol": {
+			"keccak256": "0xfeb1b0df411752a4a4e41584702c94fbcf76bf2e407acd0d57fd96f2595af275",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d0e8e874f36e1edaf308755bb49dc6dbc2f5b6006d2a169e32c7981908a094d",
+				"dweb:/ipfs/QmeUAs1vHg2tDPGMvtKQS41HvbN8RfBzKmpLttEMQmBtDx"
+			]
+		}
+	},
+	"version": 1
+}

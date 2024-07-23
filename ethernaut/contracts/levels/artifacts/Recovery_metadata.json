@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_initialSupply",
+						"type": "uint256"
+					}
+				],
+				"name": "generateToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/levels/Recovery.sol": "Recovery"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Recovery.sol": {
+			"keccak256": "0x97cd12d6c471f759355d6b657b296dabb747894b40c258dda179ab77a8a72d00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bfae37125ab893de8b7df11ad490bfc7116341b5d6ec8ba075c47d73ac684c88",
+				"dweb:/ipfs/QmUDk3KVmmcEXJde1xfQ329XuiXzJm6GHWxE9Hw1ioCnCU"
+			]
+		}
+	},
+	"version": 1
+}

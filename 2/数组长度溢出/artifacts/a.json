@@ -1,0 +1,55 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a723058200305c43bf71ffc10f895c227bbf0468b0791c94cb5e503f2f42da804cb347b6f0029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x35 DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 SUB SDIV 0xc4 EXTCODESIZE 0xf7 0x1f 0xfc LT 0xf8 SWAP6 0xc2 0x27 0xbb CREATE 0x46 DUP12 SMOD SWAP2 0xc9 0x4c 0xb5 0xe5 SUB CALLCODE DELEGATECALL 0x2d 0xa8 DIV 0xcb CALLVALUE PUSH28 0x6F002900000000000000000000000000000000000000000000000000 ",
+			"sourceMap": "533:21:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;533:21:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"linkReferences": {},
+			"object": "6080604052600080fd00a165627a7a723058200305c43bf71ffc10f895c227bbf0468b0791c94cb5e503f2f42da804cb347b6f0029",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 SUB SDIV 0xc4 EXTCODESIZE 0xf7 0x1f 0xfc LT 0xf8 SWAP6 0xc2 0x27 0xbb CREATE 0x46 DUP12 SMOD SWAP2 0xc9 0x4c 0xb5 0xe5 SUB CALLCODE DELEGATECALL 0x2d 0xa8 DIV 0xcb CALLVALUE PUSH28 0x6F002900000000000000000000000000000000000000000000000000 ",
+			"sourceMap": "533:21:0:-;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "10600",
+				"executionCost": "66",
+				"totalCost": "10666"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

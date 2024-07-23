@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/ElevatorAttack.sol": "Name"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Elevator.sol": {
+			"keccak256": "0x11b97748d2431327d63bcd70ee404f22e808c652fb5d1a25fc8174ab4a41cecb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ebe48a548b56c0b1466f976d1d82fdf5187544c5c514913242f0f570da134c7d",
+				"dweb:/ipfs/QmdxYRvHXzDhock1vwKX9t1cqK4TCgLQp1JL7HvHGe7ndE"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/ElevatorAttack.sol": {
+			"keccak256": "0x78b9ae443c30910f654541b1d8b3860c8d3e9923b6781f48765f71a26b2614d7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://60cda4cdb83be8a55c3df5601827deeca6074d76b4a8073b17f1a0ed20249668",
+				"dweb:/ipfs/Qmf8bvXxSWUkexpBc5QEqPd2pbMcZEXSiCh6AHzuv8N2p3"
+			]
+		}
+	},
+	"version": 1
+}

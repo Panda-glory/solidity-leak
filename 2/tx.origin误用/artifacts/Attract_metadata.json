@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/tx.origin误用/1.sol": "Attract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/tx.origin误用/1.sol": {
+			"keccak256": "0x756d5d14c0c8b0aa3499af38f08a6551b4204caa97f5c0138eb9f245b3bab068",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://98b7fe2cbb28f23c800f660c229ca72ca4abef770e71c264b4eafc61bc5e61a1",
+				"dweb:/ipfs/Qmc6V61MSZuDnWnhLcFAEZUeYUoypUMjqAc3CthZbCQC8K"
+			]
+		}
+	},
+	"version": 1
+}

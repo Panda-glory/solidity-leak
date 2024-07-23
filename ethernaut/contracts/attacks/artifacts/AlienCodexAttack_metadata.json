@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_target",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_newOwner",
+						"type": "bytes32"
+					}
+				],
+				"name": "attack",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "target",
+				"outputs": [
+					{
+						"internalType": "contract AlienCodex",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/attacks/AlienCodexAttack.sol": "AlienCodexAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/attacks/AlienCodexAttack.sol": {
+			"keccak256": "0x20f5f4aaaff67d642140d64e117cf9a7507c2e6b4a62300a049bf56638458df2",
+			"urls": [
+				"bzz-raw://8486351f43c08c6bc2a50152763e9d3f15b6d42aa613542bf9b04e21a3bb2b8e",
+				"dweb:/ipfs/QmUE5fghwQ4Nv6n4VmfD1VwGto1BmqStQVJZc3WpfPRdAg"
+			]
+		},
+		"shoot/ethernaut/contracts/helpers/Ownable-05.sol": {
+			"keccak256": "0x5e152d4fe867c54125b89610a2e423d7711248e925115054441fe4a346d9d3b8",
+			"urls": [
+				"bzz-raw://e7b63ef3732147f372ec97ebb70322f9d744a66b86c167104e1556a1369d61cb",
+				"dweb:/ipfs/QmSGLsC8Y3A8PnCjJaq4poQnTUPkZ5CQSt3z1VpU3cjHKx"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/AlienCodex.sol": {
+			"keccak256": "0xe37452d20d2bf2e24db6f336db7d0b8626d2e5a0399e56ed28fd5f45597deba0",
+			"urls": [
+				"bzz-raw://392c0fd577373ed2674b08f9e4cc36f9124a5becfa27e6987a8d567ae8012334",
+				"dweb:/ipfs/QmbLqY1vJjdFZ1QbmrDhEEYgNDCcjLa5xRNVDaKshH3M6V"
+			]
+		}
+	},
+	"version": 1
+}

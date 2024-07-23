@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract array",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "getMapslot",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "slot",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getTokensslot",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/动态数据类型的存储/1attract.sol": "Attract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/动态数据类型的存储/1.sol": {
+			"keccak256": "0x35ecdd4009f134d2d750435981827cab93b7bd0b88bbaf29a6fd22388c5054eb",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://cf8160735c243da4b4fea38dc9c8fdce16bd9de2a3c0384a0865c63dee8fd107",
+				"dweb:/ipfs/QmbzAsMUN7P4CQtiysSiTCEAV5KYfjDWQYir5N3fDFRGWh"
+			]
+		},
+		"shoot/2/动态数据类型的存储/1attract.sol": {
+			"keccak256": "0x2347471016c857c44f57f205b02005020b3ed07ea54749a6d75b930c2dab0d23",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b187055279a01331759cd0f04abde9b3311209ea9be1d1ed6e60961d8adf2832",
+				"dweb:/ipfs/QmQ6vsZvXP6JyaqnZWmoguk2eayK82xv7p2uohrE39VyPv"
+			]
+		}
+	},
+	"version": 1
+}

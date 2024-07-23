@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/摸底1/3/1.sol": "geta"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/摸底1/3/1.sol": {
+			"keccak256": "0x181c674792665a64f5f60a888f78d0b03b562102dabb175f1d92e7f85b0cdfc8",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://23a2910510b44fe05910bec142549263e2ddf277e7ccc2aed105e4b66ef7c085",
+				"dweb:/ipfs/QmSn5Er73g7eWTSde5ST1kbWS7bNRHoJFuevLuQ8Uy72gM"
+			]
+		}
+	},
+	"version": 1
+}

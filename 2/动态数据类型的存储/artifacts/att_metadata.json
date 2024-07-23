@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract array",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "attract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTokenOfUserSlot",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "a",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTokenSlot",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "a",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/2/动态数据类型的存储/1.sol": "att"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/2/动态数据类型的存储/1.sol": {
+			"keccak256": "0x21c5a25575dc80e40c1e586c2eb7b04632c7ab5ef6d3da70e9f7dd58ee9bd20f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://bfb2ebefcf38aa68c5f54cbea9ea8ef57dc309400cc6b1b2ab61fdb1ff6a93f1",
+				"dweb:/ipfs/Qme4S3nsxKSvCHtpTF2foLYEBcu37xzVsFRSPst2xMyNa6"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/DelegationAttack.sol": "DelegationAttract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Delegation.sol": {
+			"keccak256": "0xd33ca0dc369480553735f1a7bac38290162a54192a361fee3cbd3a23850d55eb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff70172996c89483bb25628544a622e07dce4413475c181c05a682cb64fe0617",
+				"dweb:/ipfs/QmPXKpK8CXDUqxV33W4mJoKvWe9igC6c2RTL39cUdPeT1z"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/DelegationAttack.sol": {
+			"keccak256": "0x2fd883882051fc4f4e6be2eac3fd7f532aabb5d30e3e1ce23647274d24ee8474",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7544a610344e28413554f067798982850329e87f50c5d9323996ca531f98d636",
+				"dweb:/ipfs/QmUHB8RwidwYxeQL6u8sqE311U485y8v3vqpDF115LhZYW"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addr",
+				"outputs": [
+					{
+						"internalType": "contract Reentrance",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Reentrance",
+						"name": "addr1",
+						"type": "address"
+					}
+				],
+				"name": "att",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shoot/ethernaut/contracts/myanswer/ReentranceAttack.sol": "ReentranceAttack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shoot/ethernaut/contracts/levels/Reentrance.sol": {
+			"keccak256": "0xb3190987f66b9a65441da7cceb8ef286e41bf0a6ba8104b0d61bc19f6122ee0c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d7a6df971c52ae21d2fd3897d2d62087d749ec1797c2f713c2b261826d308679",
+				"dweb:/ipfs/QmVhbUsazohYEPxeFkkDCRsytwkEhKp6u3WZhH4ojrbRgJ"
+			]
+		},
+		"shoot/ethernaut/contracts/levels/base/SafeMath-06.sol": {
+			"keccak256": "0x98736a085f562e1232a6975c12f784ba08bddc6682aaf57f795155989d44539d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9c720ad8c836152a5b673eadd824caf4c214865042006bb8972ec789dcb89dc3",
+				"dweb:/ipfs/QmRdfSNjkgoGqQx7QkyrJ779vVkjqrMY18b9Y9Eh1RD7h4"
+			]
+		},
+		"shoot/ethernaut/contracts/myanswer/ReentranceAttack.sol": {
+			"keccak256": "0x339856881ef83777a57ffedaea3d0609b4b07c83705a70be83448c66590bc7f4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eb84e2d57d78c86a3ef4ae6fe70ece2c9b51b820017e7152b1b53b1dc1064021",
+				"dweb:/ipfs/QmZ54omhUQ6XdkQ8xwPKaxGmqbQc7jDfT4YzCCQmJPgWhZ"
+			]
+		}
+	},
+	"version": 1
+}
